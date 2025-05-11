@@ -1,0 +1,41 @@
+.wishlist {
+  padding: 2rem;
+  text-align: center;
+}
+
+.wishlist-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.wishlist-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 220px;
+}
+
+.wishlist-item img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.wishlist-container {
+  background-image: url('/art.jpg');  /* ✅ path from public/ */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px;
+  color: rgb(174, 55, 55); /* optional: for better readability */
+}

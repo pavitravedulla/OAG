@@ -1,0 +1,44 @@
+
+
+/* src/Pages/Wishlist.css */
+.wishlist-container {
+  padding: 20px;
+}
+
+.wishlist-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.wishlist-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px; /* You can adjust the width to suit your design */
+}
+
+.wishlist-item-image {
+  width: 100%; /* Make the image responsive */
+  height: 300px; /* Adjust height */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  border-radius: 10px; /* Optional: for rounded corners */
+}
+
+.wishlist-item-details {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.buy-now {
+  background-color: #4CAF50; /* Green button */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-now:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
